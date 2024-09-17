@@ -1,0 +1,127 @@
+.body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header{
+    text-align: left;
+  }
+  .heading{
+    margin: 30px;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .main{
+    border: 1px solid rgb(151, 147, 147);
+    display: flex;
+    height: 280px;
+    width: 900px;
+    margin: 0px 10px 10px 30px;
+    border-radius: 10px;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    border: 1px invisible gray;
+    height: 75px;
+    width: 75px;
+   margin: 20px 10px 20px 20px;
+    border-radius: 50%;
+    background-color: rgb(187, 185, 185);
+  }
+  
+  .box2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .name{
+    margin-block-start: 25px;
+      margin-block-end: 0;
+      font-weight: 600;
+      font-size: 20px;
+  }
+  .state{
+    margin-block-start: 0;
+      margin-block-end: 0;
+      font-size: 13px;
+  }
+  
+  .title{
+    margin-block-end: 30px;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .body{
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .main2{
+    border: 1px solid rgb(151, 147, 147);
+    margin: 30px 10px 10px 30px;
+    height: 150px;
+    width: 900px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  .skills{
+    display: flex;
+  }
+  
+  .skill{
+    margin: 20px 0px 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .skill1, .skill2, .skill3{
+    height: 25px;
+    width: 140px;
+    border: 1px transparent rgb(200, 233, 241);
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 40px;
+    background-color: rgb(200, 233, 241);
+    color: gray;
+  }
+  .lan{
+    margin-block-end: 0;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .eng{
+    margin-block-start: 0;
+    font-weight: 15px;
+  }
+  .language{
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 950px;
+  }
+  
+  .plus{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    top: 430px;
+    left: 880px;
+  }
